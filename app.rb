@@ -58,6 +58,7 @@ end
 private
 
 def guessed_correctly?
+  # return true
   session['guessed_number'] == session['secret_number']
 end
 
